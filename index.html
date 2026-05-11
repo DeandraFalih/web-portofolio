@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <title>Web Profile & Portofolio Deandra Falih</title>
     <meta charset="utf-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+            rel="stylesheet"
     />
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
@@ -28,594 +28,685 @@
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
     <style>
-	  /* Fix horizontal scrollbar */
-      html, body {
-        overflow-x: hidden;
-        max-width: 100%;
-      }
-      /* ===== Static Hero Override =====
-         Semua style di style.css menggunakan selector
-         .owl-carousel.home-slider .slider-item (dan turunannya).
-         Karena wrapper owl-carousel dihapus, kita override
-         langsung di sini agar tampilan tetap sama.
-      ============================== */
-
-      #home-section {
-        position: relative;
-        height: 750px;
-        z-index: 0;
-      }
-
-      #home-section .slider-item {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 750px;
-        position: relative;
-        z-index: 0;
-      }
-
-      #home-section .slider-item .overlay {
-        position: absolute;
-        top: 0; bottom: 0; left: 0; right: 0;
-        background: #000000;
-        opacity: 0;
-      }
-
-      #home-section .slider-item .slider-text {
-        height: 750px;
-        z-index: 0;
-      }
-
-      #home-section .slider-item .slider-text .one-third {
-        width: 60%;
-        position: relative;
-        z-index: -1;
-      }
-
-      #home-section .slider-item .slider-text .one-third .overlay {
-        position: absolute;
-        top: 0; bottom: 0; left: 0; right: 0;
-        background: #000000;
-        opacity: 0;
-      }
-
-      #home-section .slider-item .slider-text .one-forth {
-        width: 50%;
-        position: relative;
-      }
-
-      @media (min-width: 768px) {
-        #home-section .slider-item .slider-text .one-forth {
-          position: absolute;
-          top: 0; left: 0; bottom: 0; right: 0;
-          width: 1200px;
-          margin: 0 auto;
+        /* Fix horizontal scrollbar */
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
         }
-      }
 
-      #home-section .slider-item .slider-text .one-forth .text {
-        width: 100%;
-      }
-
-      @media (min-width: 992px) {
-        #home-section .slider-item .slider-text .one-forth .text {
-          position: absolute;
-          top: 50%;
-          left: 0;
-          transform: translateY(-50%);
-          right: 0;
-          max-width: 50%;
-          padding-left: 45px;
-          padding-right: 3em;
+        #home-section {
+            position: relative;
+            height: 750px;
+            z-index: 0;
         }
-      }
 
-      #home-section .slider-item .slider-text .subheading {
-        color: #ffbd39;
-        font-weight: 600;
-        font-size: 14px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-      }
-
-      #home-section .slider-item .slider-text .text {
-        position: relative;
-        z-index: 1;
-      }
-
-      #home-section .slider-item .slider-text h1 {
-        font-size: 60px;
-        color: #fff;
-        line-height: 1.2;
-        font-weight: 800;
-      }
-
-      #home-section .slider-item .slider-text h1 span {
-        font-weight: 800;
-        color: #ffbd39;
-      }
-
-      #home-section .slider-item .slider-text h2 {
-        font-size: 30px;
-        font-weight: 400;
-      }
-
-      #home-section .slider-item .slider-text p {
-        color: rgba(0, 0, 0, 0.8);
-        font-weight: 400;
-      }
-
-      /* Responsive */
-      @media (max-width: 1199.98px) {
         #home-section .slider-item {
-          background-position: center center !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 750px;
+            position: relative;
+            z-index: 0;
         }
-        #home-section .slider-item .slider-text .one-third {
-          width: 85%;
-        }
-      }
 
-      @media (max-width: 991.98px) {
+        #home-section .slider-item .overlay {
+            position: absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            background: #000000;
+            opacity: 0;
+        }
+
         #home-section .slider-item .slider-text {
-          text-align: center;
+            height: 750px;
+            z-index: 0;
         }
-        #home-section .slider-item .slider-text .one-third {
-          width: 100%;
-          z-index: 0;
-        }
-        #home-section .slider-item .slider-text .one-third .overlay {
-          opacity: .3;
-        }
-        #home-section .slider-item .slider-text .one-forth {
-          width: 100%;
-          position: absolute;
-          top: 0; left: 0; right: 0; bottom: 0;
-          z-index: 1;
-          padding: 1em;
-        }
-        #home-section .slider-item .slider-text h1 {
-          color: #fff;
-          font-size: 50px;
-        }
-        #home-section .slider-item .slider-text h2 {
-          color: #fff;
-        }
-        #home-section .slider-item .slider-text p {
-          color: rgba(255, 255, 255, 0.7);
-          font-size: 23px;
-        }
-      }
 
-      @media (max-width: 767.98px) {
-        #home-section .slider-item .slider-text h1 {
-          font-size: 40px;
+        #home-section .slider-item .slider-text .one-third {
+            width: 60%;
+            position: relative;
+            z-index: -1;
         }
-      }
+
+        #home-section .slider-item .slider-text .one-third .overlay {
+            position: absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            background: #000000;
+            opacity: 0;
+        }
+
+        #home-section .slider-item .slider-text .one-forth {
+            width: 50%;
+            position: relative;
+        }
+
+        @media (min-width: 768px) {
+            #home-section .slider-item .slider-text .one-forth {
+                position: absolute;
+                top: 0; left: 0; bottom: 0; right: 0;
+                width: 1200px;
+                margin: 0 auto;
+            }
+        }
+
+        #home-section .slider-item .slider-text .one-forth .text {
+            width: 100%;
+        }
+
+        @media (min-width: 992px) {
+            #home-section .slider-item .slider-text .one-forth .text {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                right: 0;
+                max-width: 50%;
+                padding-left: 45px;
+                padding-right: 3em;
+            }
+        }
+
+        #home-section .slider-item .slider-text .subheading {
+            color: #ffbd39;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        #home-section .slider-item .slider-text .text {
+            position: relative;
+            z-index: 1;
+        }
+
+        #home-section .slider-item .slider-text h1 {
+            font-size: 60px;
+            color: #fff;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+
+        #home-section .slider-item .slider-text h1 span {
+            font-weight: 800;
+            color: #ffbd39;
+        }
+
+        #home-section .slider-item .slider-text h2 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        #home-section .slider-item .slider-text p {
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 400;
+        }
+
+        /* Responsive */
+        @media (max-width: 1199.98px) {
+            #home-section .slider-item {
+                background-position: center center !important;
+            }
+            #home-section .slider-item .slider-text .one-third {
+                width: 85%;
+            }
+        }
+
+        /* Tablet */
+        @media (max-width: 991.98px) and (min-width: 768px) {
+            #home-section .slider-item .slider-text {
+                text-align: center;
+            }
+            #home-section .slider-item .slider-text .one-third {
+                width: 100%;
+                z-index: 0;
+            }
+            #home-section .slider-item .slider-text .one-third .overlay {
+                opacity: .3;
+            }
+            #home-section .slider-item .slider-text .one-forth {
+                width: 100%;
+                position: absolute;
+                top: 0; left: 0; right: 0; bottom: 0;
+                z-index: 1;
+                padding: 1em;
+            }
+            #home-section .slider-item .slider-text h1 {
+                color: #fff;
+                font-size: 44px;
+            }
+            #home-section .slider-item .slider-text h2 {
+                color: #fff;
+                font-size: 22px;
+            }
+            #home-section .slider-item .slider-text p {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 767.98px) {
+            #home-section,
+            #home-section .slider-item {
+                height: auto;
+                min-height: 100vh;
+            }
+
+            #home-section .slider-item .slider-text {
+                height: auto;
+                min-height: 100vh;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                padding: 100px 16px 40px;
+                text-align: center;
+            }
+
+            /* foto tampil normal, tidak overlay */
+            #home-section .slider-item .slider-text .one-third {
+                width: 100%;
+                order: 0;
+                z-index: 0;
+                margin-bottom: 28px;
+                position: relative;
+            }
+
+            .profile-circle {
+                width: 180px !important;
+                height: 180px !important;
+            }
+
+            /* teks di bawah foto — TIDAK absolute */
+            #home-section .slider-item .slider-text .one-forth {
+                position: relative !important;
+                width: 100% !important;
+                top: auto !important;
+                left: auto !important;
+                right: auto !important;
+                bottom: auto !important;
+                order: 1;
+                z-index: 1;
+                padding: 0 8px;
+            }
+
+            #home-section .slider-item .slider-text .one-forth .text {
+                position: relative !important;
+                top: auto !important;
+                transform: none !important;
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+
+            #home-section .slider-item .slider-text h1 {
+                font-size: 30px;
+                color: #fff;
+            }
+
+            #home-section .slider-item .slider-text h2 {
+                font-size: 18px;
+                color: #fff;
+            }
+
+            #home-section .slider-item .slider-text p {
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 14px;
+            }
+
+            /* Projects */
+            .project-item {
+                flex-direction: column !important;
+            }
+            .project-img {
+                width: 100% !important;
+                height: 200px !important;
+                min-height: unset !important;
+            }
+            .project-info {
+                width: 100% !important;
+                padding: 20px !important;
+            }
+            .project-info h3 { font-size: 16px; }
+            .project-info p  { font-size: 13px; }
+
+            /* Skills */
+            .skill-bubbles {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
+            }
+            .skill-bubbles .skill {
+                font-size: 13px;
+                padding: 6px 14px;
+            }
+
+            /* Big decorative heading */
+            h1.big, h1.big-2 {
+                font-size: 55px !important;
+            }
+        }
     </style>
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
-      id="ftco-navbar"
-    >
-      <div class="container">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<nav
+        class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
+        id="ftco-navbar"
+>
+    <div class="container">
         <a class="navbar-brand" href="index.html">Portofolio</a>
         <button
-          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#ftco-nav"
-          aria-controls="ftco-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+                class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+                type="button"
+                data-toggle="collapse"
+                data-target="#ftco-nav"
+                aria-controls="ftco-nav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
         >
-          <span class="oi oi-menu"></span> Menu
+            <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item">
-              <a href="#home-section" class="nav-link"><span>Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-section" class="nav-link"><span>About</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
-            </li>
-            <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
-            <li class="nav-item">
-              <a href="#skills-section" class="nav-link"><span>Skills</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects-section" class="nav-link"
-                ><span>Projects</span></a
-              >
-            </li>
-            <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link"
-                ><span>Contact</span></a
-              >
-            </li>
-          </ul>
+            <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home-section" class="nav-link"><span>Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-section" class="nav-link"><span>About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+                </li>
+                <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+                <li class="nav-item">
+                    <a href="#skills-section" class="nav-link"><span>Skills</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects-section" class="nav-link"
+                    ><span>Projects</span></a
+                    >
+                </li>
+                <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+                <li class="nav-item">
+                    <a href="#contact-section" class="nav-link"
+                    ><span>Contact</span></a
+                    >
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
-    <section id="home-section" class="hero">
-      <div class="slider-item">
+    </div>
+</nav>
+<section id="home-section" class="hero">
+    <div class="slider-item">
         <div class="overlay"></div>
         <div class="container">
-          <div
-            class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-            data-scrollax-parent="true"
-          >
-            <div class="one-third js-fullheight order-md-last d-flex align-items-center justify-content-center">
-              <div class="profile-circle">
-                <img src="images/dean2.jpg" alt="Profile" />
-              </div>
-            </div>
             <div
-              class="one-forth d-flex align-items-center ftco-animate"
-              data-scrollax=" properties: { translateY: '70%' }"
+                    class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                    data-scrollax-parent="true"
             >
-              <div class="text">
-                <span class="subheading">Hello!</span>
-                <h1 class="mb-4 mt-3">I'm <span>Deandra Falih Andito</span></h1>
-                <h2 class="mb-4">Software Developer</h2>
-                <p>
-                  <a
-                    href="#projects-section"
-                    class="btn btn-white btn-outline-white py-3 px-4"
-                    >My works</a
-                  >
-                </p>
-              </div>
+                <div class="one-third js-fullheight order-md-last d-flex align-items-center justify-content-center">
+                    <div class="profile-circle">
+                        <img src="images/dean2.jpg" alt="Profile" />
+                    </div>
+                </div>
+                <div
+                        class="one-forth d-flex align-items-center ftco-animate"
+                        data-scrollax=" properties: { translateY: '70%' }"
+                >
+                    <div class="text">
+                        <span class="subheading">Hello!</span>
+                        <h1 class="mb-4 mt-3">I'm <span>Deandra Falih Andito</span></h1>
+                        <h2 class="mb-4">Software Developer</h2>
+                        <p>
+                            <a
+                                    href="#projects-section"
+                                    class="btn btn-white btn-outline-white py-3 px-4"
+                            >My works</a
+                            >
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-	<section class="ftco-about ftco-section" id="about-section">
-	<div class="container">
-		
-		<div class="row justify-content-center">
-		<div class="col-md-8 text-center">
-
-			<div class="heading-section text-center ftco-animate">
-			<h1 class="big big-2">About</h1>
-			<h2 class="mb-4">About Me</h2>
-			
-			<p>
-				Saya adalah Software Developer yang berfokus pada Computer Vision dengan pengalaman lebih dari 1 tahun dalam mengembangkan sistem AI real-time menggunakan Python, YOLOv8, PyTorch, dan OpenCV. Memiliki rekam jejak dalam membangun solusi computer vision secara end-to-end, mulai dari pelatihan model pada dataset kustom hingga implementasi pada perangkat edge (NVIDIA Jetson Nano & AGX Orin). 
-				Berpengalaman dalam mengembangkan aplikasi proof-of-concept untuk kepatuhan keselamatan (deteksi APD), kontrol akses (pengenalan wajah), dan transportasi cerdas (ANPR). Memiliki dasar yang kuat dalam pemrograman Python serta terus mengembangkan keahlian dalam praktik terbaik rekayasa perangkat lunak.
-			</p>
-
-			</div>
-		</div>
-		</div>
-
-	</div>
-	</section>
-
-    
-	<section class="ftco-section ftco-no-pb" id="resume-section">
-	<div class="container">
-
-		<div class="row justify-content-center pb-5">
-		<div class="col-md-10 heading-section text-center ftco-animate">
-			<h1 class="big big-2">Resume</h1>
-			<h2 class="mb-4">Resume</h2>
-			<p>
-			Berikut adalah pengalaman dan project yang pernah saya kerjakan
-			di bidang Software Development, AI, dan Computer Vision.
-			</p>
-		</div>
-		</div>
-		<div class="row justify-content-center">
-		<div class="col-md-10">
-
-			<div class="resume-wrap ftco-animate">
-			<span class="date">Software Engineer – Computer Vision</span>
-			<h2>Agustus 2024 – April 2026</h2>
-			<span class="position">PT. Oemah Solution Indonesia</span>
-			<p class="mt-4">
-				Mengembangkan berbagai sistem computer vision berbasis YOLOv8 dan PyTorch, termasuk deteksi APD untuk PT. United Tractors, pengenalan wajah dengan FaceNet, serta sistem multifungsi untuk PT. PML yang mencakup deteksi tabrakan, perhitungan objek, dan pemantauan area terlarang. 
-				Selain itu, membangun sistem deteksi kendaraan dengan fitur penghitungan, pelanggaran area, serta deteksi api dan asap. Seluruh solusi diimplementasikan dan dioptimasi secara mandiri pada perangkat NVIDIA Jetson AGX Orin, termasuk konfigurasi sistem, manajemen dependensi, serta integrasi dengan database SQLite dan backend berbasis Flask.
-			</p>
-			</div>
-
-			<div class="resume-wrap ftco-animate">
-			<span class="date">Magang Software Engineer</span>
-			<h2>Agustus – Desember 2023</h2>
-			<span class="position">PT. SIMS-Lifemedia</span>
-			<p class="mt-4">
-				Membangun sistem absensi otomatis berbasis deteksi dan pengenalan wajah pada NVIDIA Jetson Nano dengan menangani seluruh proses secara mandiri, mulai dari konfigurasi perangkat keras hingga implementasi perangkat lunak. 
-				Selain itu, mengembangkan sistem pemantauan perangkat OLT berbasis Python yang terintegrasi dengan pengambilan data sensor dan pelaporan secara real-time. Teknologi yang digunakan meliputi Python, OpenCV, Linux, Raspberry Pi, dan NVIDIA Jetson Nano.
-			</p>
-			</div>
-
-			<div class="resume-wrap ftco-animate">
-			<span class="date">Magang Front-End Developer</span>
-			<h2>Februari – Juni 2023</h2>
-			<span class="position">D3 TI Universitas Sebelas Maret</span>
-			<p class="mt-4">
-				Berkontribusi dalam pengembangan website profil Departemen D3TI sebagai front-end developer menggunakan Laravel dan PHP, sekaligus berperan sebagai pemimpin proyek untuk memastikan koordinasi tim dan penyelesaian pekerjaan tepat waktu. Teknologi yang digunakan meliputi Laravel, PHP, dan CSS.
-			</p>
-			</div>
-		</div>
-		</div>
-
-		<div class="row justify-content-center mt-5">
-		<div class="col-md-6 text-center ftco-animate">
-			<p>
-			<a href="https://drive.google.com/file/d/1mw87VhRuR7xyOQqFsFocKWwKxXDbqPqF/view?usp=sharing" class="btn btn-primary py-3 px-5">
-				Download CV
-			</a>
-			</p>
-		</div>
-		</div>
-
-	</div>
-	</section>
-
-	<section class="ftco-section" id="skills-section">
-	<div class="container">
-		
-		<div class="row justify-content-center pb-5">
-		<div class="col-md-12 heading-section text-center ftco-animate">
-			<h1 class="big big-2">Skills</h1>
-			<h2 class="mb-4">My Skills</h2>
-			<p>
-			Berikut adalah list skill yang mampu saya gunakan dengan baik dalam berkerja
-			</p>
-		</div>
-		</div>
-		<div class="row justify-content-center">
-		<div class="col-md-12 text-center">
-			<div class="skill-bubbles">
-			<span class="skill python">Python</span>
-			<span class="skill flask">Flask</span>
-			<span class="skill opencv">OpenCV</span>
-			<span class="skill yolov8">YOLOv8</span>
-			<span class="skill postgres">PostgreSQL</span>
-			<span class="skill docker">Docker</span>
-			<span class="skill streamlit">Streamlit</span>
-			<span class="skill linux">Linux</span>
-			<span class="skill javascript">JavaScript</span>
-			<span class="skill html">HTML</span>
-			<span class="skill css">CSS</span>
-			</div>
-		</div>
-		</div>
-	</div>
-	</section>
-
-
-	<section class="ftco-section ftco-project" id="projects-section">
-	<div class="container">
-
-
-		<div class="row justify-content-center pb-5">
-		<div class="col-md-10 heading-section text-center ftco-animate">
-			<h1 class="big big-2">Projects</h1>
-			<h2 class="mb-4">My Projects</h2>
-			<p>
-			Berikut beberapa project yang telah saya kerjakan di bidang AI,
-			Computer Vision, dan Backend Development.
-			</p>
-		</div>
-		</div>
-
-		<div class="row justify-content-center">
-		<div class="col-md-10">
-
-			<div class="project-item d-flex ftco-animate">
-			<div class="project-img" style="background-image: url(images/chatbot2.png);"></div>
-			<div class="project-info">
-				<h3>AI HR Assistant — Local LLM Chatbot</h3>
-				<span>Python • Ollama • Next.js • OpenAI API</span>
-				<p>
-				Chatbot cerdas berbasis Large Language Model lokal yang memungkinkan karyawan
-				mengakses informasi HR — mulai dari rekap absensi, slip gaji, hingga dokumen
-				perusahaan — hanya lewat percakapan natural tanpa perlu membuka sistem lain.
-				</p>
-			</div>
-			</div>
-
-			<div class="project-item d-flex ftco-animate">
-			<div class="project-img" style="background-image: url(images/astra.png);"></div>
-			<div class="project-info">
-				<h3>Smart Safety Compliance System</h3>
-				<span>Python • YOLOv8 • OpenCV • Flask • FaceNet • NVIDIA Jetson</span>
-				<p>
-				Sistem keamanan terpadu berbasis AI yang mendeteksi kelengkapan APD sekaligus
-				mengenali identitas pekerja secara real-time. Dilengkapi notifikasi otomatis
-				apabila terdapat pelanggaran keselamatan kerja di area produksi.
-				</p>
-			</div>
-			</div>
-
-			<div class="project-item d-flex ftco-animate">
-			<div class="project-img" style="background-image: url(images/fr.png);"></div>
-			<div class="project-info">
-				<h3>Real-Time Face Recognition & Access Control</h3>
-				<span>Python • FaceNet • OpenCV • Flask • PostgreSQL</span>
-				<p>
-				Sistem pengenalan wajah real-time untuk kontrol akses dan pencatatan kehadiran
-				otomatis. Mampu mengidentifikasi individu dari database dalam hitungan milidetik
-				dengan akurasi tinggi, bahkan dalam kondisi pencahayaan yang bervariasi.
-				</p>
-			</div>
-			</div>
-
-			<div class="project-item d-flex ftco-animate">
-			<div class="project-img" style="background-image: url(images/ut.png);"></div>
-			<div class="project-info">
-				<h3>PPE Detection PoC — PT. United Tractors</h3>
-				<span>Python • YOLOv8 • OpenCV • Flask</span>
-				<p>
-				Proof of Concept sistem deteksi Alat Pelindung Diri (APD) berbasis computer vision
-				untuk PT. United Tractors. Mendeteksi helm, rompi, dan sarung tangan secara
-				otomatis pada kamera CCTV eksisting tanpa perlu mengganti infrastruktur.
-				</p>
-			</div>
-			</div>
-
-		</div>
-		</div>
-
-	</div>
-	</section>
-	<section
-      class="ftco-section contact-section ftco-no-pb"
-      id="contact-section"
-    >
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>
-              Berikut adalah kontak saya yang bisa dihubungi
-            </p>
-          </div>
-        </div>
- 
-        <div class="row d-flex contact-info mb-5 justify-content-center">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-map-signs"></span>
-              </div>
-              <h3 class="mb-4">Address</h3>
-              <p>Sukoharjo, Jawa Tengah</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-phone2"></span>
-              </div>
-              <h3 class="mb-4">Contact Number</h3>
-              <p><a href="https://wa.me/6285243828858">085243828858</a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-paper-plane"></span>
-              </div>
-              <h3 class="mb-4">Email Address</h3>
-              <p><a href="mailto:deandito.dev@gmail.com">deandito.dev@gmail.com</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <footer class="ftco-footer ftco-section">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              All rights reserved | This template is made with
-              <i class="icon-heart color-danger" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen">
-      <svg class="circular" width="48px" height="48px">
-        <circle
-          class="path-bg"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke="#eeeeee"
-        />
-        <circle
-          class="path"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke-miterlimit="10"
-          stroke="#F96D00"
-        />
-      </svg>
     </div>
+</section>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
+<section class="ftco-about ftco-section" id="about-section">
+    <div class="container">
 
-    <script src="js/main.js"></script>
-	<div id="lightbox-overlay" style="
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+
+                <div class="heading-section text-center ftco-animate">
+                    <h1 class="big big-2">About</h1>
+                    <h2 class="mb-4">About Me</h2>
+
+                    <p>
+                        Saya adalah Software Developer yang berfokus pada Computer Vision dengan pengalaman lebih dari 1 tahun dalam mengembangkan sistem AI real-time menggunakan Python, YOLOv8, PyTorch, dan OpenCV. Memiliki rekam jejak dalam membangun solusi computer vision secara end-to-end, mulai dari pelatihan model pada dataset kustom hingga implementasi pada perangkat edge (NVIDIA Jetson Nano & AGX Orin).
+                        Berpengalaman dalam mengembangkan aplikasi proof-of-concept untuk kepatuhan keselamatan (deteksi APD), kontrol akses (pengenalan wajah), dan transportasi cerdas (ANPR). Memiliki dasar yang kuat dalam pemrograman Python serta terus mengembangkan keahlian dalam praktik terbaik rekayasa perangkat lunak.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Resume</h1>
+                <h2 class="mb-4">Resume</h2>
+                <p>
+                    Berikut adalah pengalaman dan project yang pernah saya kerjakan
+                    di bidang Software Development, AI, dan Computer Vision.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">Software Engineer – Computer Vision</span>
+                    <h2>Agustus 2024 – April 2026</h2>
+                    <span class="position">PT. Oemah Solution Indonesia</span>
+                    <p class="mt-4">
+                        Mengembangkan berbagai sistem computer vision berbasis YOLOv8 dan PyTorch, termasuk deteksi APD untuk PT. United Tractors, pengenalan wajah dengan FaceNet, serta sistem multifungsi untuk PT. PML yang mencakup deteksi tabrakan, perhitungan objek, dan pemantauan area terlarang.
+                        Selain itu, membangun sistem deteksi kendaraan dengan fitur penghitungan, pelanggaran area, serta deteksi api dan asap. Seluruh solusi diimplementasikan dan dioptimasi secara mandiri pada perangkat NVIDIA Jetson AGX Orin, termasuk konfigurasi sistem, manajemen dependensi, serta integrasi dengan database SQLite dan backend berbasis Flask.
+                    </p>
+                </div>
+
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">Magang Software Engineer</span>
+                    <h2>Agustus – Desember 2023</h2>
+                    <span class="position">PT. SIMS-Lifemedia</span>
+                    <p class="mt-4">
+                        Membangun sistem absensi otomatis berbasis deteksi dan pengenalan wajah pada NVIDIA Jetson Nano dengan menangani seluruh proses secara mandiri, mulai dari konfigurasi perangkat keras hingga implementasi perangkat lunak.
+                        Selain itu, mengembangkan sistem pemantauan perangkat OLT berbasis Python yang terintegrasi dengan pengambilan data sensor dan pelaporan secara real-time. Teknologi yang digunakan meliputi Python, OpenCV, Linux, Raspberry Pi, dan NVIDIA Jetson Nano.
+                    </p>
+                </div>
+
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">Magang Front-End Developer</span>
+                    <h2>Februari – Juni 2023</h2>
+                    <span class="position">D3 TI Universitas Sebelas Maret</span>
+                    <p class="mt-4">
+                        Berkontribusi dalam pengembangan website profil Departemen D3TI sebagai front-end developer menggunakan Laravel dan PHP, sekaligus berperan sebagai pemimpin proyek untuk memastikan koordinasi tim dan penyelesaian pekerjaan tepat waktu. Teknologi yang digunakan meliputi Laravel, PHP, dan CSS.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 text-center ftco-animate">
+                <p>
+                    <a href="https://drive.google.com/file/d/1mw87VhRuR7xyOQqFsFocKWwKxXDbqPqF/view?usp=sharing" class="btn btn-primary py-3 px-5">
+                        Download CV
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="ftco-section" id="skills-section">
+    <div class="container">
+
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Skills</h1>
+                <h2 class="mb-4">My Skills</h2>
+                <p>
+                    Berikut adalah list skill yang mampu saya gunakan dengan baik dalam berkerja
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="skill-bubbles">
+                    <span class="skill python">Python</span>
+                    <span class="skill flask">Flask</span>
+                    <span class="skill opencv">OpenCV</span>
+                    <span class="skill yolov8">YOLOv8</span>
+                    <span class="skill postgres">PostgreSQL</span>
+                    <span class="skill docker">Docker</span>
+                    <span class="skill streamlit">Streamlit</span>
+                    <span class="skill linux">Linux</span>
+                    <span class="skill javascript">JavaScript</span>
+                    <span class="skill html">HTML</span>
+                    <span class="skill css">CSS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section ftco-project" id="projects-section">
+    <div class="container">
+
+
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Projects</h1>
+                <h2 class="mb-4">My Projects</h2>
+                <p>
+                    Berikut beberapa project yang telah saya kerjakan di bidang AI,
+                    Computer Vision, dan Backend Development.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+
+                <div class="project-item d-flex ftco-animate">
+                    <div class="project-img" style="background-image: url(images/chatbot2.png);"></div>
+                    <div class="project-info">
+                        <h3>AI HR Assistant — Local LLM Chatbot</h3>
+                        <span>Python • Ollama • Next.js • OpenAI API</span>
+                        <p>
+                            Chatbot cerdas berbasis Large Language Model lokal yang memungkinkan karyawan
+                            mengakses informasi HR — mulai dari rekap absensi, slip gaji, hingga dokumen
+                            perusahaan — hanya lewat percakapan natural tanpa perlu membuka sistem lain.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-item d-flex ftco-animate">
+                    <div class="project-img" style="background-image: url(images/astra.png);"></div>
+                    <div class="project-info">
+                        <h3>Smart Safety Compliance System</h3>
+                        <span>Python • YOLOv8 • OpenCV • Flask • FaceNet • NVIDIA Jetson</span>
+                        <p>
+                            Sistem keamanan terpadu berbasis AI yang mendeteksi kelengkapan APD sekaligus
+                            mengenali identitas pekerja secara real-time. Dilengkapi notifikasi otomatis
+                            apabila terdapat pelanggaran keselamatan kerja di area produksi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-item d-flex ftco-animate">
+                    <div class="project-img" style="background-image: url(images/fr.png);"></div>
+                    <div class="project-info">
+                        <h3>Real-Time Face Recognition & Access Control</h3>
+                        <span>Python • FaceNet • OpenCV • Flask • PostgreSQL</span>
+                        <p>
+                            Sistem pengenalan wajah real-time untuk kontrol akses dan pencatatan kehadiran
+                            otomatis. Mampu mengidentifikasi individu dari database dalam hitungan milidetik
+                            dengan akurasi tinggi, bahkan dalam kondisi pencahayaan yang bervariasi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-item d-flex ftco-animate">
+                    <div class="project-img" style="background-image: url(images/ut.png);"></div>
+                    <div class="project-info">
+                        <h3>PPE Detection PoC — PT. United Tractors</h3>
+                        <span>Python • YOLOv8 • OpenCV • Flask</span>
+                        <p>
+                            Proof of Concept sistem deteksi Alat Pelindung Diri (APD) berbasis computer vision
+                            untuk PT. United Tractors. Mendeteksi helm, rompi, dan sarung tangan secara
+                            otomatis pada kamera CCTV eksisting tanpa perlu mengganti infrastruktur.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<section
+        class="ftco-section contact-section ftco-no-pb"
+        id="contact-section"
+>
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Contact</h1>
+                <h2 class="mb-4">Contact Me</h2>
+                <p>
+                    Berikut adalah kontak saya yang bisa dihubungi
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5 justify-content-center">
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div
+                            class="icon d-flex align-items-center justify-content-center"
+                    >
+                        <span class="icon-map-signs"></span>
+                    </div>
+                    <h3 class="mb-4">Address</h3>
+                    <p>Sukoharjo, Jawa Tengah</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div
+                            class="icon d-flex align-items-center justify-content-center"
+                    >
+                        <span class="icon-phone2"></span>
+                    </div>
+                    <h3 class="mb-4">Contact Number</h3>
+                    <p><a href="https://wa.me/6285243828858">085243828858</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div
+                            class="icon d-flex align-items-center justify-content-center"
+                    >
+                        <span class="icon-paper-plane"></span>
+                    </div>
+                    <h3 class="mb-4">Email Address</h3>
+                    <p><a href="mailto:deandito.dev@gmail.com">deandito.dev@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="ftco-footer ftco-section">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="icon-heart color-danger" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle
+                class="path-bg"
+                cx="24"
+                cy="24"
+                r="22"
+                fill="none"
+                stroke-width="4"
+                stroke="#eeeeee"
+        />
+        <circle
+                class="path"
+                cx="24"
+                cy="24"
+                r="22"
+                fill="none"
+                stroke-width="4"
+                stroke-miterlimit="10"
+                stroke="#F96D00"
+        />
+    </svg>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+
+<script src="js/main.js"></script>
+<div id="lightbox-overlay" style="
       display:none; position:fixed; inset:0; z-index:9999;
       background:rgba(0,0,0,0.85); align-items:center; justify-content:center; cursor:zoom-out;
     ">
-      <img id="lightbox-img" src="" style="
+    <img id="lightbox-img" src="" style="
         max-width:90vw; max-height:90vh; border-radius:8px;
         box-shadow:0 8px 40px rgba(0,0,0,0.6); object-fit:contain;
       " />
-    </div>
- 
-    <script>
-      const overlay = document.getElementById('lightbox-overlay');
-      const lightboxImg = document.getElementById('lightbox-img');
- 
-      document.querySelectorAll('.project-img').forEach(function(el) {
+</div>
+
+<script>
+    const overlay = document.getElementById('lightbox-overlay');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    document.querySelectorAll('.project-img').forEach(function(el) {
         el.style.cursor = 'zoom-in';
         el.addEventListener('click', function() {
-          const bg = window.getComputedStyle(el).backgroundImage;
-          const url = bg.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
-          lightboxImg.src = url;
-          overlay.style.display = 'flex';
+            const bg = window.getComputedStyle(el).backgroundImage;
+            const url = bg.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+            lightboxImg.src = url;
+            overlay.style.display = 'flex';
         });
-      });
- 
-      overlay.addEventListener('click', function() {
+    });
+
+    overlay.addEventListener('click', function() {
         overlay.style.display = 'none';
         lightboxImg.src = '';
-      });
- 
-      document.addEventListener('keydown', function(e) {
+    });
+
+    document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {
-          overlay.style.display = 'none';
-          lightboxImg.src = '';
+            overlay.style.display = 'none';
+            lightboxImg.src = '';
         }
-      });
-    </script>
-  </body>
+    });
+</script>
+</body>
 </html>
